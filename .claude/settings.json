@@ -1,0 +1,26 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup|clear|resume",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"$CLAUDE_PROJECT_DIR/.claude/hooks/init.js\""
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "matcher": "stop",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node .claude/hooks/session-stop.js"
+          }
+        ]
+      }
+    ]
+  }
+}

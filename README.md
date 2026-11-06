@@ -1,6 +1,6 @@
-# Patinhas Felizes 🐾
+# Patinhas Felizes aula 🐾
 
-Landing page institucional de um petshop fictício, a **Patinhas Felizes**. O site apresenta os serviços (banho e tosa, veterinário, hotelzinho e loja de produtos), traz informações sobre a empresa e leva o visitante ao contato por WhatsApp.
+Landing page institucional de um petshop fictício, a **Patinhas Felizes aula**. O site apresenta os serviços (banho e tosa, veterinário, hotelzinho e loja de produtos), traz informações sobre a empresa e leva o visitante ao contato por WhatsApp.
 
 É uma página estática de uma única rota, feita com Next.js (App Router) e Server Components. Serve como base para evoluir para um site com agendamento, autenticação e área administrativa.
 
